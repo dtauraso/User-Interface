@@ -86,6 +86,7 @@ nav {
 	width: 800px;
 	padding: 10px;
 	margin: 20px;
+	/*border: 2px solid #BADA55;*/
 	/*position: absolute;*/
 }
 .navBar a {
@@ -98,8 +99,9 @@ nav {
 .navImage {
 	display: inline-block;
 	padding: 20px;
-
+	right: 105px;
 	position: absolute;
+	/*border: 2px solid #BADA55;*/
 }
 
 
@@ -113,6 +115,7 @@ nav {
 	width: 1000px;
 	/*border: 2px solid #BADA55;*/
 	height: 400px;
+	top: 130;
 	/*border-bottom: 1px solid black;*/
 }
 .innovationPrompt {
@@ -138,13 +141,16 @@ nav {
 	align-content: center;
 	text-align: center;
 	border: 2px solid black;
-	/*width: 40px;*/
+	width: 150px;
+	font-size: 20px;
+	/*left: 0px;*/
 	/*border-left: 20px;*/
 
 }
 .promptImage {
-	display:inline;
+	display:inline-block;
 	position: absolute;
+	right: 5px;
 }
 
 
@@ -154,45 +160,55 @@ nav {
 .featuresAbout {
 	position: relative;
 	width: 1000px;
-	margin-left: auto;
+	left: 70px;
+	/*margin-left: auto;*/
 	/*border: 2px solid #BADA55;*/
-
+	top: 5px;
 }
 
 .myText {
 
 	display: inline-block;
-	width: 440px;
+	width: 480px;
 	padding: 10px;
 	/*margin: 10px;*/
 	/*border: 2px solid #BADA55;*/
 
 
 }
-.imageWrapper {
+.middle-img/*imageWrapper*/ {
+	position: relative;
 	margin-left: auto;
-	width: 100%;
+	width: 990px;
     /* margin-left: 0px; */
     padding: 35px;
-    margin: 0 auto;
+	margin: 0 auto;
+	top: -5px;
+	left: 40px;
+	/*border: 2px solid #BADA55;*/
 }
 .lastPart {
-	border-bottom: 1px solid black;
+	position: relative;
+	top: -15px;
+	left: 70px;
+	/*border-bottom: 1px solid black;*/
 
 }
 .myText2 {
 
 	display: inline-block;
-	width: 300px;
+	width: 310px;
 
 	/*border: 2px solid #BADA55;*/
-
+	
 	padding: 10px;
-	/*margin: 20px;*/
+	/*margin: 5px;*/
 
 }
 .address {
-	/*margin: 20px;*/
+	position: relative;
+	margin: 40px;
+	left: 40px;
 }
 /*can't seem to center it*/
 .copyright {
