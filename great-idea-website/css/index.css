@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*
+nav {
+	/*position: relative;*/
+	/*margin-left:40%;*/
+	/*display: inline-block;
+	width: 500px;*/
+	
+/*}*/
+
+/* ceneter*/
+.fullNavBar {
+	position: relative;
+	width: 1100px;
+	/*border: 2px solid #BADA55;*/
+	margin: 20px;
+}
+
+.navBar {
+	display: inline-block;
+	width: 800px;
+	padding: 10px;
+	margin: 20px;
+	/*position: absolute;*/
+}
+.navBar a {
+	margin: 35px;
+
+	color: silver;
+	text-decoration: none;
+	font-style: bold;
+}
+.navImage {
+	display: inline-block;
+	padding: 20px;
+
+	position: absolute;
+}
+
+
+
+
+
+
+
+.innovation {
+	position: relative;
+	width: 1000px;
+	/*border: 2px solid #BADA55;*/
+	height: 400px;
+	/*border-bottom: 1px solid black;*/
+}
+.innovationPrompt {
+	display: inline-block;
+	width: 600px;
+	padding: 60px;
+	margin: 20px;
+	/*line-height: 1;*/
+	/*border: 2px solid #BADA55;*/
+
+}
+.prompt {
+	text-align: center;
+	font-family: "bangers";
+	font-size: 70px;
+	/*height: 200px;*/
+	/*border: 2px solid #BADA55;*/
+	/*font-weight: bold;*/
+}
+/* caused me some trouble,can't get the spaceing between innovation on demand and the button right*/
+.button {
+	/*margin: 20px;*/
+	align-content: center;
+	text-align: center;
+	border: 2px solid black;
+	/*width: 40px;*/
+	/*border-left: 20px;*/
+
+}
+.promptImage {
+	display:inline;
+	position: absolute;
+}
+
+
+
+
+
+.featuresAbout {
+	position: relative;
+	width: 1000px;
+	margin-left: auto;
+	/*border: 2px solid #BADA55;*/
+
+}
+
+.myText {
+
+	display: inline-block;
+	width: 440px;
+	padding: 10px;
+	/*margin: 10px;*/
+	/*border: 2px solid #BADA55;*/
+
+
+}
+.imageWrapper {
+	margin-left: auto;
+	width: 100%;
+    /* margin-left: 0px; */
+    padding: 35px;
+    margin: 0 auto;
+}
+.lastPart {
+	border-bottom: 1px solid black;
+
+}
+.myText2 {
+
+	display: inline-block;
+	width: 300px;
+
+	/*border: 2px solid #BADA55;*/
+
+	padding: 10px;
+	/*margin: 20px;*/
+
+}
+.address {
+	/*margin: 20px;*/
+}
+/*can't seem to center it*/
+.copyright {
+	text-align: center;
+}
