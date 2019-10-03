@@ -64,3 +64,153 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*
+nav {
+	/*position: relative;*/
+	/*margin-left:40%;*/
+	/*display: inline-block;
+	width: 500px;*/
+	
+/*}*/
+
+/* ceneter*/
+.fullNavBar {
+	position: relative;
+	width: 1100px;
+	/*border: 2px solid #BADA55;*/
+	margin: 20px;
+}
+
+.navBar {
+	display: inline-block;
+	width: 800px;
+	padding: 10px;
+	margin: 20px;
+	/*border: 2px solid #BADA55;*/
+	/*position: absolute;*/
+}
+.navBar a {
+	margin: 35px;
+
+	color: silver;
+	text-decoration: none;
+	font-style: bold;
+}
+.navImage {
+	display: inline-block;
+	padding: 20px;
+	right: 105px;
+	position: absolute;
+	/*border: 2px solid #BADA55;*/
+}
+
+
+
+
+
+
+
+.innovation {
+	position: relative;
+	width: 1000px;
+	/*border: 2px solid #BADA55;*/
+	height: 400px;
+	top: 130;
+	/*border-bottom: 1px solid black;*/
+}
+.innovationPrompt {
+	display: inline-block;
+	width: 600px;
+	padding: 60px;
+	margin: 20px;
+	/*line-height: 1;*/
+	/*border: 2px solid #BADA55;*/
+
+}
+.prompt {
+	text-align: center;
+	font-family: "bangers";
+	font-size: 70px;
+	/*height: 200px;*/
+	/*border: 2px solid #BADA55;*/
+	/*font-weight: bold;*/
+}
+/* caused me some trouble,can't get the spaceing between innovation on demand and the button right*/
+.button {
+	/*margin: 20px;*/
+	align-content: center;
+	text-align: center;
+	border: 2px solid black;
+	width: 150px;
+	font-size: 20px;
+	/*left: 0px;*/
+	/*border-left: 20px;*/
+
+}
+.promptImage {
+	display:inline-block;
+	position: absolute;
+	right: 5px;
+}
+
+
+
+
+
+.featuresAbout {
+	position: relative;
+	width: 1000px;
+	left: 70px;
+	/*margin-left: auto;*/
+	/*border: 2px solid #BADA55;*/
+	top: 5px;
+}
+
+.myText {
+
+	display: inline-block;
+	width: 480px;
+	padding: 10px;
+	/*margin: 10px;*/
+	/*border: 2px solid #BADA55;*/
+
+
+}
+.middle-img/*imageWrapper*/ {
+	position: relative;
+	margin-left: auto;
+	width: 990px;
+    /* margin-left: 0px; */
+    padding: 35px;
+	margin: 0 auto;
+	top: -5px;
+	left: 40px;
+	/*border: 2px solid #BADA55;*/
+}
+.lastPart {
+	position: relative;
+	top: -15px;
+	left: 70px;
+	/*border-bottom: 1px solid black;*/
+
+}
+.myText2 {
+
+	display: inline-block;
+	width: 310px;
+
+	/*border: 2px solid #BADA55;*/
+	
+	padding: 10px;
+	/*margin: 5px;*/
+
+}
+.address {
+	position: relative;
+	margin: 40px;
+	left: 40px;
+}
+/*can't seem to center it*/
+.copyright {
+	text-align: center;
+}
